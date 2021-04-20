@@ -14,6 +14,7 @@ This is a method that tackles the key information extraction problem as a charac
 
 Training data is available at `./data/`. To train a model, just run this command at root directory
 ```shell
+$ mkdir results #if not existing
 $ python ./src/train.py
 ```
 or to test the model:
